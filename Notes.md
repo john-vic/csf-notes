@@ -63,6 +63,10 @@ Insights
 
 > - **Block 4**
 >   - Big one to memorize
+>   - **B4L1**
+>       - Remember how legacy and new corelate
+>       - \______ is how we defend against specific threats
+>       - Know the difference between change & configuration management.
 
 ---
 
@@ -493,14 +497,14 @@ B3 - Security
 >       - Blue Hat
 >           - Hired by organizations to pen-test software & systems
 > 
->   - | Threat Actors     | Motivation   |
->     | ----------------- | ------------ |
->     | Nation-States     | Geopolitical |
->     | Cybercriminals    | Profit       |
->     | Hacktivists       | Ideological  |
+>   - | Threat Actors     | Motivation          |
+>     | ----------------- | ------------        |
+>     | Nation-States     | Geopolitical        |
+>     | Cybercriminals    | Profit              |
+>     | Hacktivists       | Ideological         |
 >     | Terrorist Groups  | Idological Violence |
->     | Thrill-seekers    | Satisfaction |
->     | Insider Threats   | Discontent   |
+>     | Thrill-seekers    | Satisfaction        |
+>     | Insider Threats   | Discontent          |
 > 
 > - Classifying Attacks
 >   - Passive
@@ -626,9 +630,9 @@ B3 - Security
 >       - **Provides operational command & control, and situational awareness.**
 >   - Cyber-Intel Squadrons
 >       - Full-spectrum collection, exploitation, analysis, & targeting for cyber ops
->   - NSA National Threat Operations Center (NTOC)
+>   - NSA National Threat Operations Center **(NTOC)**
 >       - Real-time network awareness & threat characterization
->   - National Air & Space Intelligence Center (NASIC)
+>   - National Air & Space Intelligence Center **(NASIC)**
 >       - Predictive intelligence
 >   - **AFOSI**
 >       - **Conducts criminal investigations & provide counterintelligence services.**
@@ -648,10 +652,176 @@ B3 - Security
 B4 - Operation
 ---
 ### L1 - Cyberspace Missions
->  - 
+> - Cyberspace Missions
+>   - DoDIN Operations (DoDIN Ops)
+>       - Sustains network connectivity
+>       - Threat agnostic; doesn't care who the threat is
+>   - Defensive Cyber Operations (DCO)
+>       - DCO Internal Defensive Measures (DCO-IDM)
+>           - Protect from a **specific** threat on the internal side of the network
+>       - DCO Response Actions (DCO-RA)
+>           - Protect from a **specific** threat external to the network
+>   - Offensive Cyber Operations (OCO)
+>       - Intended to project power in foreign cyberspace
+
+> - Cyberspace Actions
+>   - System Operations
+>       - Ensure specific segments of DoD cyberspace remain in operation
+>   - Security
+>       - Reduce attack surface
+>   - Defense
+>       - ID & defeat active threats
+>   - Exploitation
+>   - Attack
+
+> - Legacy DCO Mission Types
+>   - Surveillance
+>       - Collect relevant data & information in/on the AO
+>   - Reconnaissance
+>       - Collect relevant data & information on specified threats in the AO
+>   - Access
+>       - Provide sufficient access for supported cyber forces
+>   - Escort
+>       - Provide protection, defense, & support to cyber weapon systems cunducting primary missions in assigned AO
+>   - Secure
+>       - Enhance defenses of the AO to mitigate risk
+>   - Strike
+>       - Damage/destroy an objective/capability
+>   - Strike Coordination & Reconnaissance (SCAR)
+>       - Conduct/facilitate **dynamic targeting** in the AO
+>   - Threat Emulation
+>       - Replicate realistic TTP's to specific cyber threats to evaluate defenses and prepare DoD-DCO
+
+> - New DCO Mission Types (AFCYBER Mission Areas)
+>   - Resolve
+>       - Create terrain & resolve priority issues, executed on operationally accepted cyberspace
+>       - Build, Operate, Extend
+>       - Legacy Analogue: Access & Escort
+>   - Identify
+>       - Identify threats to refine organizational understanding
+>       - Conduct, Scan, Query, Compile, Analyze
+>       - Legacy Analogue: Surveillance
+>   - Protect
+>       - Enhance the AFIN security posture in response to specified or general threats, which reduses risk to systems & missions
+>       - Implement, Configure, Remediate
+>       - Legacy Analogue: Secure
+>   - Detect
+>       - Search for specific threats/TTPs & coordinate a strike
+>       - Monitor, Hunt
+>       - Legacy Analogue: Reconnaissance, SCAR
+>   - Respond
+>       - Targetted response to specific identified threats
+>       - Triage, Strike
+>       - Legacy Analogue: Strike
+>   - Recover
+>       - Recover system in response to a specific attack.
+>       - Exercise, Rebuild
+>   - Continuous Validation & Assessment (CV&A)
+>       - Use approximation of known enemy TTPs to provide measures of effectiveness (MOEs) & performance (MOPs) for detect & protect missions
+>       - Replicate, Assess, Validate
+>       - Legacy Analogue: Threat Emulation
 
 ### L2 - Enterprise Management
->  - 
+> - Defining the Enterprise
+>   - Enterprise Devices
+>       - Endpoints
+>       - Network Devices
+>       - Communication Protocols
+>       - Constituent Networks
+>           - Non-enterprise networks that share infrastructure
+>   - DoDIN
+>       - Globally connected
+>       - Provided by DISA
+>   - AFIN
+>       - Defines owned/leased AF networks
+>       - AFNET & AFNET-S
+
+> - Key Principles of Managing the Enterprise
+>   - **Enterprise Architecture Management (EAM)**
+>       - Managerial process that develops, maintains, and uses a set of procedures, standards of architecture, and administrative regimes that provide direct direction & realistic assistance in designing & implementing an enterprise formation to achieve its vision, strategic plans, & goals.
+>   - NIST Risk Management Framework (RMF)
+>       - Prepare
+>       - Categorize
+>       - Select
+>       - Implement
+>       - Assess
+>       - Authorize
+>       - Monitor
+>   - NIST Cybersecurity Framework
+>       - Identify
+>       - Protect
+>       - Detect
+>       - Respond
+>       - Recover
+
+> - Facets of Enterprise Management
+>   - IT Service Management (ITSM)
+>       - Focuses on customer needs & IT services for customers in adition to IT systems
+>   - Configuration Management (CM)
+>       - Identifies, records, controls, reports, audits, & verifies service assets & configuration baselines
+>   - Change Management
+>       - **Designed to minimize disruptions to network services while making necessary updates or changes**
+>       - Request for Change (RFC) or Change Proposal flow
+>           - Review Request
+>           - Evaluate Change
+>           - Approve Change
+>           - Coordinate Implementation
+>           - Review & Close Change Request
+>       - Types of Changes
+>           - Standard
+>               - Preapproved, regular changes like patches
+>               - low risk
+>           - Normal
+>               - Common changes that aren't preaproved, like a new laptop
+>           - Emergency
+>               - Unexpected issues that require immediat changes, like removing compromised devices
+> - Software Management
+>   - How we track software licenses
+>   - The processes & procedures responsible for managing software licenses throughout their lifespan
+> - Incident Management
+>   - Steps
+>       - Detect
+>       - Log
+>       - Classify
+>       - Diagnose
+>       - Resolve
+>       - Close
+>       - Review
+> - Network Management (FCAPS)
+>   - Fault Management
+>       - Recognize, isolate, collect, & log faults.
+>   - Configuration Management
+>       - Monitor changes to baseline
+>   - Account Management
+>       - Tracks network utilization information, authentification & authorization
+>   - Performance Management
+>       - Ensure that network performance remains at acceptable levels.
+>       - Addresses throughput, response time, packet loss, link utilization, percentage utilization, error rates, etc
+>   - Security Management
+>       - Focuses on the CIA of the network
+
+> - Emergency Preparedness & Response
+>   - Mission Critical Mentality
+>       - Focuses on risk mitigation
+>       - Acknowledges the facility-IT system relationship
+>   - Key Elements
+>       - Emergency Operating Procedures (EOP)
+>       - Crisis Management Plans
+>       - Escalation Procedures
+>           - Documented, prioritized contact lists, with contact requirements
+>       - Emergency Drills
+> - Incident Management/Reporting
+>   - Anything unplanned, unusual, or unexpected
+>   - Impacts operations/safety
+>   - Incident Reporting
+>       - Report Information
+>       - Site Information
+>       - Incident Overview
+>       - Incident Details
+>       - Incident Follow-up
+>       - Action Items
+>       - Reccomendations
+>       - Support Information
 
 ### L3 - Cyberspace Weapon Systems
 >  - 
