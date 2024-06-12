@@ -63,10 +63,20 @@ Insights
 
 > - **Block 4**
 >   - Big one to memorize
->   - **B4L1**
+>   - **L1**
 >       - Remember how legacy and new corelate
 >       - \______ is how we defend against specific threats
+>   - **L2**
 >       - Know the difference between change & configuration management.
+>   - **L3**
+>       - Situational awareness = C3MS
+>       - Gateway + Weapon system = AFINC
+>       - 616 OC = C3MS
+
+> - 561st Tools
+>   - MECM
+>   - ARAD
+>   - ACAS
 
 ---
 
@@ -824,7 +834,47 @@ B4 - Operation
 >       - Support Information
 
 ### L3 - Cyberspace Weapon Systems
->  - 
+> - Defensive Cyber Weapon Systems & Capabilities
+>   - Cyber Command & Control Mission Systems (C3MS)
+>       - **616th Ops Center**
+>       - Provides situational awarenes
+>       - Cyber tasking orders (CTO)
+>
+> - Air Force Intranet Control (AFINC)
+>   - Delivers network centrict services & provides core services
+>   - AFNet Situational Awareness, whitelists/blacklists
+>   - Cybersecurity Service Provider (CSSP)
+> 
+> - Cybersecurity & Control System (CSCS)
+>   - **Tactical-level weapon system.**
+>   - Conducts daily AFNet(-S) operations
+>   - Provides 24/7 network defense operations & management functions
+>   - **Units**
+>       - 83rd NOS
+>       - 561st NOS
+>       - 690th COS
+>       - 691st COS
+>   - CSCS Operator Roles
+>       - CCC - Crew Commander
+>       - CPO - Client-Endpoint Operator
+>       - DSO - Directory Services Operator
+>       - NMO - Network Management Operator
+>       - SVO - Storage & Virtualization Operator
+>       - VMO - Vulnerability Management Operator
+>
+> - Air Force Cyberspace Defense (ACD)
+>   - **Designed to carry out defensive cyberspace operations (DCOs) to prevent, detect, respond to, and provide forensics of network intrusions.**
+>   - Key Capabilities
+>       - Prevent
+>       - Detect
+>       - Respond
+>
+> - Cyberspace Vulnerability Assessment/Hunter (CVA/H)
+>   - Provides mission assurance to increase defensive capability
+>
+> - Cyberspace Defense Analysis (CDA)
+>   - Monitors, collects, analyzes, and **reports on information**
+>   - 688 NW
 
 ---
 
