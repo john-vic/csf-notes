@@ -73,6 +73,9 @@ Insights
 >       - Gateway + Weapon system = AFINC
 >       - 616 OC = C3MS
 
+> - **Block 5**
+>   - Joint Planning Process = 5-O???
+
 > - 561st Tools
 >   - MECM
 >   - ARAD
@@ -883,16 +886,341 @@ B4 - Operation
 B5 - Crew Operations
 ---
 ### L1 - Cybercrew Operator Training
-> - 
+> - Training Pipeline
+>   - Tech School
+>   - IQT
+>   - Stan/Eval IQT Evaluation
+>   - BCQ (Basic Cyber Qualified)
+>       - Mission Qualification Training (MQT)
+>       - Standards & Evaluation(Stan/Eval) MQT Evaluation
+>   - BMC (Basic Mission Capable)
+>       - OJT
+>       - Stan/Eval MR Evaluation
+>       - Certification Brief
+>   - MR (Mission Ready)
+>       - Maintain MR Status
+
+> - Evaluation & Qualification Process
+>   - Evaluations
+>       - Written
+>       - Performance
+>   - Evaluation Categories
+>       - Qualification (QUAL)
+>       - Mission (MSN)
+>           - Focuses on mission readiness (MR)
+>       - On the Spot (SPOT)
+>   - Qualifications
+>       - Every 18 months upon initial qualification
+>   - Qualification Levels
+>       - Q1
+>           - Top Tier
+>           - Pass written tests with 90%+
+>           - All minor discrepencies noted during evaluation resolved during debrief
+>           - No Unsatisfactory (U)
+>       - Q2
+>           - Acceptable
+>           - Pass written tests with 80-90%
+>           - Given Unsatisfactory (U) in unimportant/sub areas
+>       - Q3
+>           - Unacceptable
+>           - Fail written tests
+>           - Given Unsatisfactory (U) in a significant area
+
+> - Squadron Operations Training Flight (DOT)
+>   - DOT Roles & Responsibilities
+>       - Operator Training Program
+>       - Continuation Training Program
+>       - Develops Master Training Task List (MTTL)
+>       - Coordinates Training
+>       - Tracks/Evaluates Readiness
+>       - Create/Maintain ITF (Individual Training Folder)
+>           - Basically your permanent record.
+
+> - Tactics, Techniques, & Procedures (TTPs)
+>   - TTP
+>       - Tactics
+>           - Why tasks are executed
+>       - Techniques
+>           - What tasks need executed
+>       - Procedures
+>           - How tasks should be completed
+>   - Used with crew aids & local policy
+>       - Local policy covers base-specific needs
+>   - **TTP Documents**
+>       - AFTTP 3-1/3-3
+>           - Official TTP documents published by the USAFWC
+>       - Tactics Bulletins
+>           - Official updates to AFTTP between rewrites
+>       - Flash Bulletins
+>           - Time-sensitive lessons learned, requiring immediate dissemination
+>       - Operational Change Request
+>           - Formal request to MAJCOM that IDs the the inability of an electronic warfare system to meet operational requirements.
+>   - TTP Hierarchy & Relationship to Crew Aids
+>       - Pyrimad
+>           - Tactics (Top)
+>           - Techniques
+>           - Procedures
+>           - Checklists, Standard Operating Procedures, Technical Orders
+
+> - Tactics Development Program
+>   - Documents validated best practices
+>   - Improves weapon system combat capabilities & integration
+>   - Identify tactical deficiencies & find, validate, & document non-material solutions
+>   - 4 Primary Elements
+>       - Tactics Improvement Proposals (TIPs)
+>       - Tactics Review Boards (TRBs)
+>       - Tactics Development & Evaluations (TD&E)
+>       - Dissemination of Information
+>   - Tactics Cycle
+>       - Development (First Phase)
+>           - TIP Submission
+>           - Review
+>           - Tactics Review Board (TRB)
+>           - Tasking & Planning
+>           - Development & Validation
+>           - Documentation
+>       - Implementation (Second Phase)
+>           - Train
+>           - Exercise
+>           - Mission Plan
+>           - Execute
+>           - Assess
+>           - ID Deficiencies
+
+> - Squadron Weapons & Tactics (DOK)
+>   - Every unit has a DOK shop
+>   - Most qualified individuals
+>   - Implements TTPs through the Implementation half of the Tactics Cycle
+>   - Other Responsibilities
+>       - Developing tactical employment guidance
+>       - Establishing & maintaining contact w/ mission support functions
+>       - Confirm with senior, lateral, & subordinate W&T units
 
 ### L2 - Cybercrew Force Management
-> - 
+> - Crew Force Management
+>   - Crew Commander/Battle Captain Responsibility
+>       - Verify "Go-No Go Status"
+>       - Monitors PEX for discrepencies
+>       - Initiates remediation actions, if necessary
+>       - Includes
+>           - Qualification
+>           - Proficiency
+>           - Currency
+>   - Qualification Requirements
+>       - Pass IQT
+>       - Complete MQT w/i 90 days
+>       - Pass Stan/Evals
+>       - Complete Upgrade/Special Training
+>       - Pass Recertification
+>   - Proficiency Requirements
+>       - Met through Continuation Training
+>       - Ready Cybercrew Program tasks (annual)
+>       - Weapons & Tactics Academic (semi-annual)
+>       - Crew Risk Management (annual)
+>       - Crewmember responsibility
+>   - Currency Requirements
+>       - AD: One sortie (every 30 days)
+>       - ANG/AFRC (every 90 days)
+>       - Tracked via PEX
+
+> - Crew Rest & Duty Periods
+>   - Individual Risk Assessment
+>       - Assesses each operator's level of risk to mission execution
+>       - Determines Fit for Duty status
+>       - Performed during shift change
+>   - Crew Rest
+>       - Minimum 10 hour non-duty period
+>       - Crew member/operator responisibility
+>   - Duty Period
+>       - Begins when member reports for duty
+>       - Not to exceed 12 hours
+>   - PEX (Patriot Excalibur)
+>       - Operations management tool
+>       - System of record for training, scheduling, & evaluations/qualifications
+>       - Must be reviewed prior to assuming shift & upon concluding shift
 
 ### L3 - Cybercrew Documentation Requirements
-> - 
+> - Cyber Mission Reporting
+>   - Master Station Log
+>       - Master repository for significan shift events
+>       - Entries must be timely, accurate, & detailed
+>       - No set format or medium; per-unit procedures
+>       - Mandatory Entries
+>           - Date
+>           - Time; Julian date, Zulu time
+>           - Event(s)
+>       - Examples
+>           - Physical Security Incident
+>           - Safety Incident
+>           - High Visibility Item
+>           - Environmental
+>           - Mission-related Operations
+>   - **Crew Information File (CIF)**
+>       - Collection of publications & material, necessary for daily operations
+>       - **5 Volumes**
+>           1. CIF Index & **Current Read File**
+>               - Temporary, pertenent material for current operation.
+>               - **Read prior to start of every mission, every day**
+>           2. HHQ Publications (and supplements)
+>               - **AF-level** guidance
+>           3. HHQ & Squadron Directives
+>               - **Squadron-level** guidance; can override AF-level guidance
+>               - Master Training Task List (MTTL) included
+>           4. Manuals, Crew Aids, & Technical Orders (TOs)
+>               - The hows of performing specific functions
+>           5. Safety Information
+>   - Crew Aids
+>       - Information used to perform daily duties
+>       - Locally developed
+>       - Requires Group/CC approval
+>   - Shift Changeover
+>       - Occurs between shifts/missions
+>       - Information passed from current to oncoming personnel
+>       - Delivered in accordance w/ local policy & directives
+>       - Eats into 10 hour non-duty period
+>       - No standard format
+
+> - Service Interruptions & Events
+>   - Roles & Responsibilities
+>       - DISA
+>           - Plans, approves, & coordinates planned/authorized service interruptions
+>       - AFIN Mission Assurance Center (AMAC)
+>           - Processes all authorized service interruptions and tracks non-interrupted periods of service
+>       - MCCC
+>           - Communicates between a unit and AMAC
+>   - Types of Service Interruptions
+>       - Authorized Service Interruption (ASI)
+>           - Routine
+>               - Not high-priority
+>               - 21 days to be scheduled
+>           - Urgent
+>               - scheduled in a 4-20 day period, requires justification & concurrence from user
+>           - Emergency/Demand
+>               - Immediate action (3-day window), requires justification, but not concurrence from user
+>       - Unauthorized Service Interruption (USI)
+>       - Period of Non-Disruption (POND)
+>           - Designated period of time that a service cannot be interrupted
+>           - Breaking a POND requires USCYBERCOM approval
+>   - Service Interruption Conditions
+>       - Levels of Degredation
+>           - **Degraded (Partially Mission Capable)**
+>               - Service still usable, but not at 100%
+>               - Partial loss of capability, limited service interruption
+>           - Hazardous Condition (HAZCON)
+>               - Condition in which a service could become isolated, such as a loss of redundancy
+>               - **Service could keep full capability, not affecting the end user at all; HAZCON != Degraded**
+>           - Isolation (Non-Mission Capable)
+>   - Force Presentation
+>       - Managed by the 616th
+>       - 7 Zulu-day outlook of available forces, no later than 7 Zulu-days prior
+>   - COOP (Continuity of Operation)
+>       - Plans to keep operations in motion during a service interruption
+
+> - Cyber Operational Reporting
+>   - Used to notify Higher Headquarters (HHQ) of any significant event or incident that rises to the level of the DoD, CJCS, Combat Command, or service-level interest.
+>   - Cyber Escalation Matrix
+>       - Quick-reference document designed to identify incidence that require reporting IAW 16th AF and 688 CW's Commander's Critical Information Requirements (CCIRs)
+>   - Types of Operational Reporting
+>       - OPREP-3, Event/Incident Report
+>       - Cyber 9-line
+>           - Used to quickly communicate incidents to USCYBERCOM
+>       - Commanders Critical Information Requirements (CCIRs)
+>           - Used to report incidents that don't meet AF-level operational reporting criteria but are of interest to the ACC Commander
+
+> - Cyber Mission Reporting
+>   - Types
+>       - SPINs
+>       - Go/No-Go Report
+>           - Used by crew commanders to notify 616 of the final Go/No-Go status 15 minutes prior to the execution of the mission
+>       - On/Off Station Report
+>           - Provided by the mission commander to communicate mission time on station, significant updates, and time off-station(mission complete)
+>       - MISREP (Mission Report)
+>           - Primary method of task reporting
+>           - Required to report status on all CTOs (cyber tasking orders)
+>       - Mission Debrief
+>           - An evaluation of mission results against mission objectives
 
 ### L4 - Cyber Mission Planning & "Rules of Engagement" (ROEs)
-> - 
+> - Cyber Mission Planning
+>   - Plans translate broad intent provided by strategy into operations; successful operations achieve the strategy's objectives
+>   - Joint Planning Process
+>       1. Planning Initiation
+>       2. Mission Analysis
+>       3. Course of Action (COA) Development
+>           - Ideas *w/ plans* become COAs
+>       4. COA Analysis & Wargaming
+>           - Simulation and trouble-shooting COA
+>           - Rehearsal of Concept (RoC) drills
+>       5. COA Comparison
+>           - How effective was the COA?
+>       6. COA Approval
+>           - Commander reviews and approves final plan
+>       7. Plan or Order Development
+
+> - Mission Planning Concepts
+>   - 5 Questions
+>       1. What is the Purpose?
+>       2. What am I being tasked to do?
+>       3. What are my limitations or constraints?
+>       4. Do I have the right resources (forces/assets)?
+>       5. How will we assess whether the objective was met & correct it for future missions?
+>   - Plan, Brief, Execute, Debrief (PBED) Process
+>       - Plan
+>           - All missions begin here
+>           - Happens at the unit level
+>           - Designated mission lead is responsible for mission planning
+>           - Rehearsal of Concepts (ROC) Drill
+>               - Tabletop exercise for the plan
+>       - Brief
+>           - Conveys the mission & plan to accomplish objectives
+>       - Execute
+>           - Also referred to as the vulnerability window
+>               - Defined by start & stop times
+>           - Mission Deviations
+>               - Cancel
+>               - Abort
+>               - Rollback
+>       - Debrief
+>           - Required after every mission
+>           - Covers all aspects of the mission
+>               - Only within the scope of the mission plan
+>           - Involves feedback
+>           - Develops lessons learned & learning
+
+> - Cyber Mission Tasking
+>   - Flow
+>       - USCYBERCOM
+>       - AFCYBER/CC
+>       - 616 OC
+>       - Various Cyber Units
+>   - USCYBERCOM Orders
+>       - Operations Orders (OPORDs)
+>           - Directives issued to direct implementation of an operational & strategic-level plan
+>           - What you're going to do
+>       - Tasking Orders (TASKORDs)
+>           - Operational-level orders issued to perform specific actions at specific time frames in support of AF & Joint requirements
+>           - How you're going to do it
+>       - Fragmentary Orders (FRAGOs)
+>           - Supplemental, additional instructions; addendums to OPORDs & TASKORDs
+>           - Small changes to how you're going to do it
+>   - 616 OC Orders
+>       - Cyber Tasking Orders (CTO)
+>           - Specific actions at specific times
+>       - Cyberspace Control Orders (CCO)
+>           - Build/shape a portion of cyberspace in support of a CCMD operation or in response to adversary action
+>       - Maintenance Tasking Orders (MTO)
+>           - Direct maintenance actions
+>       - Time Compliance Network Order (TCNO)
+>           - Direct, immediate patching of information systems against critical vulnerabilities
+>       - Time Compliance Technical Order (TCTO)
+>           - Issued to expedite changes to end articles/items, parts & material within specific time periods
+>           - Not for immediate, critical changes
+>   - Additional Communications
+>       - C4 Notice to Airmen (C4NOTAM)
+>           - Disseminate local general information that doesn't require action or tracking
+>       - Integrated Operations Directive/Integrated Operations Plan (IOD/IOP)
+>       - Special Instrucions (SPINS)
+>           - Something that needs to be changed right now that affects your mission
 
 ---
 
